@@ -188,12 +188,12 @@ type Company struct {
 
 // Dividend models one dividend.
 type Dividend struct {
-	ExDate       Date    `json:"exDate"`
-	PaymentDate  Date    `json:"paymentDate"`
-	RecordDate   Date    `json:"recordDate"`
-	DeclaredDate Date    `json:"declaredDate"`
-	Amount       float64 `json:"amount"`
-	Flag         string  `json:"flag"`
+	ExDate       Date   `json:"exDate"`
+	PaymentDate  Date   `json:"paymentDate"`
+	RecordDate   Date   `json:"recordDate"`
+	DeclaredDate Date   `json:"declaredDate"`
+	Amount       string `json:"amount"`
+	Flag         string `json:"flag"`
 }
 
 // Earnings provides earnings data for a given company including the actual
